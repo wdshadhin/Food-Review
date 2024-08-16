@@ -1,0 +1,219 @@
+/* food Review Main Page  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #0B1F40;
+}
+h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #ffffff;
+
+}
+p{
+    font-size: 15px;
+    color: #ffffff;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #e1d5d5;
+    background-color: #0cad0c;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 0 7px rgb(241, 239, 239);
+}
+button:hover{
+    color:#fff ;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+h2 span{
+    color: #0AE10B;
+}
+
+.full-Website{
+    width: 90%;
+    margin: 10px auto;
+    
+}
+h3{
+    color: #0eac0e;
+    font-size: 16px;
+}
+/* heder style  */
+.header-section{
+    display: flex;
+
+}
+.logo{
+    width: 30%;
+}
+.logo img{
+    width: 30%;
+    height: 70%;
+    
+}
+.navber{
+    width: 60%;
+    margin-left: 50%;
+    margin-right: 0px auto;
+}
+.navber nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navber nav ul li :hover{
+    color: #ffffff;
+}
+.navber nav ul li a{
+    text-decoration: none;
+    color: #A4CE52;
+    font-size: 18px;
+}
+/* hero section style  */
+.hero-section{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.food-details{
+    width: 50%;
+    margin-top: 100px;
+}
+.image-1{
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    left: 0;
+    right: 0;
+    width: 50%;
+    display: flex;
+}
+/* about section style  */
+.aboutus{
+    margin: 0px auto;
+    padding: 100px 0px 100px 0px;
+    background-color: #06152E;
+}
+.aboutus-section{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+}
+.image-2{
+    background: url(/Image/bg-frame-2-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 50%;
+}
+.image-2 img{
+    width: 80%;
+}
+.about-style{
+    padding-left: 20px;
+    width: 50%;
+    margin-top: 80px;
+}
+/* recipy section style  */
+.our-recipe{
+    padding: 80px 0px 80px 0px;
+    width: 90%;
+    margin: 0 auto;
+}
+.recipe-content{
+    text-align: center;
+}
+.recipe-card-main{
+    display: flex;
+    margin-top: 30px;
+}
+.img-1{
+    border: 2px solid #fff;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgb(241, 239, 239);
+    border-radius: 20px;
+}
+.img-1 img{ 
+        width: 100%;
+        border-radius: 50%;
+}
+.cart-pading{
+    margin-left: 5%;
+}
+/* contact section start  */
+.contact-us{
+    margin-bottom: 50px;
+}
+.contact-box{
+    margin: 0 auto;
+    width: 20%;
+    border: 2px solid #fff ;
+    padding: 30px 15px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 7px rgb(241, 239, 239);
+    border-radius: 20px;
+}
+.contact-box ul li{
+    list-style-type: none;
+    color:  #fff;
+    font-size: 16px;
+}
+/* Flower section style  */
+.social-media-flower{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    border: 2px solid #fff;
+    box-shadow: 0 0 7px rgb(241, 239, 239);
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.flower-count{
+    text-align: center;
+    width: 33%;
+}
+.flower-count h4{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow:0 0 7px rgb(241, 239, 239) ;
+}
+.flower-count p{
+    color: #fff;
+    font-size: 12px;
+    line-height: 150%;
+}
+/* footer section style  */
+.main-footer{
+    background-color: #0B0E17;
+    padding: 30px;
+    text-align: center;
+}
+.main-footer ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+.main-footer ul li a img{
+    width: 30px ;
+    height: 30px;
+}
